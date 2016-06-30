@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ck</string>
+    <string name="action_settings">Settings</string>
+    <string name="terms_of_service"><u>terms of service</u></string>
+    <string name="privacy_and_policy"><u>privacy and policy</u></string>
+    <string name="$39.99"><b>$39.99</b></string>
+</resources>

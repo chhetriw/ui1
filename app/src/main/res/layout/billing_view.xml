@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="No of Devices"
+        android:background="@drawable/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Total: $39.99"
+        android:textSize="16sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Card Type"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:id="@+id/l07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <FrameLayout
+                android:id="@+id/f01"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:src="@drawable/card_visa"/>
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end|top"
+                android:src="@drawable/icn_tickmark_cards"
+                android:visibility="invisible"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f02"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:src="@drawable/card_master"/>
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end|top"
+                android:src="@drawable/icn_tickmark_cards"
+                android:visibility="invisible"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f03"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:src="@drawable/card_americanexpress"/>
+            <ImageView
+                android:id="@+id/i3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end|top"
+                android:src="@drawable/icn_tickmark_cards"
+                android:visibility="invisible"/>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/f04"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:src="@drawable/card_discover"/>
+            <ImageView
+                android:id="@+id/i4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end|top"
+                android:src="@drawable/icn_tickmark_cards"
+                android:visibility="invisible"/>
+        </FrameLayout>
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Credit Details"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="bottom"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Credit card number"
+        android:background="@drawable/back"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:hint="Security Card"
+        android:background="@drawable/back"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:hint="Expiration Date"
+        android:background="@drawable/back"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:hint="Your Name"
+        android:background="@drawable/back"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Billing Address"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="bottom"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:hint="Address Line 1"
+        android:background="@drawable/back"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:hint="Address Line 2"
+        android:background="@drawable/back"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:hint="Postal Code"
+        android:background="@drawable/back"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ff6507"
+        android:text="Buy Premium"
+        android:textColor="#fff"
+        android:textSize="16sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#ccc"
+        android:text="Remind me later"
+        android:textColor="#fff"
+        android:textSize="16sp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <FrameLayout
+        android:id="@+id/f11"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="45dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:src="@drawable/card_discover"/>
+        <ImageView
+            android:id="@+id/six"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center|top"
+            android:src="@drawable/icn_tickmark_cards"
+            android:visibility="invisible"/>
+    </FrameLayout>
+</LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
